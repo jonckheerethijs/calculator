@@ -13,3 +13,9 @@ function multiply(x,y){
 function divide(x,y){
     return x/y
 }
+
+function operate(operator, first, second){
+    return window[operator](first, second)
+}
+
+console.log(operate("subtract",1, 6))
